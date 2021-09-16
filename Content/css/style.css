@@ -1,0 +1,420 @@
+﻿* {
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+    box-sizing:border-box;
+}
+.field-validation-error {
+    color: red !important;
+    font-style: italic !important;
+}
+#nav1 {
+    margin-bottom: 0;
+    background-color:orange;
+    border-bottom:1px solid black;
+}
+
+#nav2 {
+    width: 100%;
+}
+
+#nav2.affix-top {
+    position: static;
+}
+
+#nav2.affix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+}
+.navbar{
+    margin-bottom:0;
+}
+.navbar-inverse {
+    color:black;
+    border:none ;
+    text-transform:uppercase;
+    background-color:white;
+}
+.navbar-inverse .navbar-brand {
+    font-size: 40px;
+    font-weight: 600;
+    color:black; 
+    margin-right: 20px;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 2px;
+}
+.navbar-inverse .navbar-brand:hover{
+    color:black;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:black;
+    font-weight:600;
+    text-transform:uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    border-bottom: 3px solid red;
+    color:black;
+    background-color:orange;
+}
+.navbar-inverse .navbar-nav > .active > a {
+    border-bottom: 3px solid red;
+    color:black;
+    background-color:orange;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+    border-bottom: 3px solid red;
+    color:black;
+    background-color:orange;
+  
+}
+.secondary {
+    background-color: orange;
+    transition: 0.8s ease-in;
+    z-index: 100;
+}
+.content{
+    text-align:center;
+    font-size:20px;
+}
+
+
+/*====================LOGIN==========================*/
+/*======================================================*/
+.login {
+    background-image: url("../images/sale1.jpg") ;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-login {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    text-align: center;
+    margin: 20px;
+    height: 35vh;
+    width: 40%;
+    padding: 16px;
+    background-color: white;
+}
+.register {
+    background-image: url("../images/11.jpeg");
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-register {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    text-align: center;
+    margin: 20px;
+    height: 60vh;
+    width: 40%;
+    padding: 16px;
+    background-color: white;
+}
+.check{
+    margin-top:10px;
+}
+/*====================SLIDE BANNER==========================*/
+/*======================================================*/
+
+.carousel-indicators{
+    margin-bottom:40px;
+}
+/*====================PRODUCT==========================*/
+/*======================================================*/
+#product h3 {
+    margin-top: 87px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+#product p {
+    font-size: 16px;
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+.product-grid {
+    padding: 20px 0;
+}
+ .product-grid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+.img-product {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(67, 68, 68, 0.7);
+}
+
+.img-product:hover .overlay {
+    opacity: 1;
+}
+
+.detail {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+a.btn-addcard {
+    
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    border: 1px solid ;
+    width: 100%;
+    margin-top: 20px;
+}
+a.btn-addcard:hover {
+       transition:0.3s ease-out;
+        color: #fff;
+        background-color:black;
+    }
+.btn-product i{
+    margin-left:20px;
+}
+/*====================MY TEAM==========================*/
+.s-team{
+    margin-top:30px;
+}
+.s-title h3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.s-title p {
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+.team-item {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 59px;
+    width: 100%;
+    max-width: 270px;
+    color: #555;
+    overflow: hidden;
+    font-family: 'Roboto',sans-serif;
+}
+.team-item figure{
+    position:relative;
+    height:325px;
+    background-position:center center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    border-radius:5px;
+    background-size:cover;
+    transition:bottom 300ms ease-in-out;
+}
+.team-item figure:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#202020;
+    opacity:0;
+    filter:alpha(opacity = 0);
+    transition:opacity 300ms ease-in-out;
+}
+.team-item:hover figure:before{
+    opacity:0.5;
+    filter:alpha(opacity = 50);
+}
+.team-item .description{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:18px 10px 10px;
+    margin-bottom:34px;
+    background-color:#fff;
+    text-align:center;
+    transform:translateY(100%);
+    transition:transform 300ms ease-in-out, margin-bottom 300ms ease-in-out;
+}
+.team-item:hover .description{
+    margin-bottom:0px;
+    transform:translateY(0%);
+}
+.team-item .description p{
+    margin-top:11px;
+}
+.team-item .name {
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 2px;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+
+.team-social{
+    margin-top:20px;
+}
+.team-social a{
+    display:inline-block;
+    vertical-align:top;
+    line-height:2px;
+    font-size:17px;
+    margin-left:2px;
+}
+
+    /*====================BRAND==========================*/
+    /*======================================================*/
+ #brands-list {
+        margin-top: 30px;
+ }
+
+.brands {
+    padding: 0 10px;
+    max-width: 137px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.brands img {
+        display: inline-block !important;
+ }
+
+#brands h5 {
+    margin-top: 87px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#brands h3 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding: 0px 0px 20px;
+}
+/*====================SERVICES==========================*/
+/*======================================================*/
+#services h3 {
+    margin-top: 87px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.content-services {
+    margin-bottom: 38px;
+}
+
+.content-services p {
+    font-size: 16px;
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+.detail-aboutus {
+    font-size: 16px;
+    color: #008080;
+    font-weight: 300;
+}
+
+.intro-block {
+    position: relative;
+    margin: 50px 0 0;
+    padding: 70px 25px 40px;
+    border: 1px solid #ffa500;
+    border-radius:50px;
+}
+
+.intro-block p {
+    color: #818181;
+}
+
+.intro-block h4 {
+    color: #ffa500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.intro-block:hover h4, .intro-block:hover p {
+    color: #f6f6f6;
+}
+
+.intro-block:hover, .intro-block.active {
+    background-color: #ffa500;
+}
+
+.intro-block:hover {
+    transition: all .6s ease;
+}
+
+.intro-block .intro-icon {
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+}
+
+.intro-block .fa {
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background-color: #ffa500;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #ffa500;
+}
+
+.intro-block:hover .fa, .intro-block.active .fa {
+    background-color: white;
+    color: #1c1c1dcf;
+    box-shadow: 0px 0px 0px 10px #ffa500;
+}
